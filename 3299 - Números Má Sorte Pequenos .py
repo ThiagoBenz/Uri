@@ -1,8 +1,8 @@
-numero = input()
+numero = str(input())
 
-maSorte = 13
+maSorte = "13"
 
 if maSorte in numero:
-    print(numero," es de Mala Suerte")
+    print("{} es de Mala Suerte".format(numero))
 else:
-    print(numero," NO es de Mala Suerte")
+    print("{} NO es de Mala Suerte".format(numero))
